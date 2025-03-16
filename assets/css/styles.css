@@ -8,13 +8,14 @@ html {
 h2 {
     font-size: 26px;
     color: #222222;
-    margin: 0px 0px 12px 0px;
+    margin: 0px 0px 8px 0px;
     font-weight: 700;
 }
 
 p {
-    margin: 0px 0px 12px 0px;
+    margin: 0px 0px 8px 0px;
 }
+
 a {
     text-decoration: none;
     font-weight: 600;
@@ -49,6 +50,16 @@ main {
     justify-content:space-between;
 }
 
+.tag {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 6px 20px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
 .avatar {
     border-radius: 16px;
     align-items: center;
@@ -56,4 +67,22 @@ main {
 
 img {
     display: block;
+}
+
+li {
+    display: block;
+}
+
+.contacts-list {
+    padding: 0px;
+}
+
+.socials-link {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 12px;
+    border-radius: 12px;
+    gap: 12px;
+    color:#222222;
+    margin-top: 8px;
 }
