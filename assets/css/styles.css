@@ -41,11 +41,14 @@ main {
     position: sticky;
 }
 
+.container {
+    width: 1016px;
+}
+
 .main {
-    display: flex;
+    margin-bottom: 24px;
     padding: 16px;
     border-radius: 12px;
-    width: 1016px;
     background-color: white;
     justify-content:space-between;
 }
@@ -67,6 +70,10 @@ main {
 
 img {
     display: block;
+}
+
+.portfolio-list {
+    padding: 0px;
 }
 
 li {
