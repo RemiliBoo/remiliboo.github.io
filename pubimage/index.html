@@ -13,38 +13,6 @@
     <script src="/pubimage/assets/js/scripts.js"></script>
 
     <main>
-        <input type="file" id="imageInput" accept="image/*">
-        <div id="preview"></div>
-
-        <script>
-            let imageUrl = null;
-            let deletionTimer = null;
-
-            document.getElementById('imageInput').addEventListener('change', function(e) {
-                const file = e.target.files[0];
-                if (!file) return;
-
-                // Создаем временный URL для изображения
-                imageUrl = URL.createObjectURL(file);
-
-                // Показываем превью
-                const preview = document.getElementById('preview');
-                preview.innerHTML = `<img src="${imageUrl}" width="300">`;
-
-                // Удаляем через 1 час (3600000 мс)
-                deletionTimer = setTimeout(() => {
-                    preview.innerHTML = '<p>Изображение удалено (прошёл 1 час).</p>';
-                    URL.revokeObjectURL(imageUrl); // Освобождаем память
-                    imageUrl = null;
-                }, 3600000);
-            });
-
-            // Очистка при закрытии вкладки (опционально)
-            window.addEventListener('beforeunload', () => {
-                if (imageUrl) URL.revokeObjectURL(imageUrl);
-            });
-        </script>
-        
         <h1>Load your image here</h1>
     </main>
 </body>
