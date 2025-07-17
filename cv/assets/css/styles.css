@@ -136,21 +136,21 @@ li {
 
 @font-face {
     font-family: "Manrope-Regular";
-    src: url(/assets/fonts/Manrope-Regular.ttf) format("truetype");
+    src: url(/cv/assets/fonts/Manrope-Regular.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Manrope-Medium";
-    src: url(/assets/fonts/Manrope-Medium.ttf) format("truetype");
+    src: url(/cv/assets/fonts/Manrope-Medium.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Manrope-Bold";
-    src: url(/assets/fonts/Manrope-Bold.ttf) format("truetype");
+    src: url(/cv/assets/fonts/Manrope-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
