@@ -8,14 +8,14 @@ html {
 /* TEXT */
 
 h1 {
-    font-family: "Manrope-Bold";
+    font-family: "Manrope-Medium";
     font-size: 31px;
     color: #222222;
     margin: 0px 0px 8px 0px;
 }
 
 h2 {
-    font-family: "Manrope-Bold";
+    font-family: "Manrope-Medium";
     font-size: 21px;
     font-weight: 700;
     color: #222222;
@@ -23,7 +23,7 @@ h2 {
 }
 
 h5 {
-    font-family: "Manrope-Bold";
+    font-family: "Manrope-Medium";
     font-size: 16px;
     font-weight: 700;
     color: #222222;
